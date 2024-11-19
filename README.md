@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# **PDFMind**  
+**Extracting and Organizing Insights from PDFs**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 **Getting Started**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To get started with the **PDFMind** project, follow these steps:
 
-## Learn More
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/nikhilmohite123/PDFMind.git
+   cd PDFMind
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install Dependencies**:  
+   Install the necessary dependencies using your package manager of choice:
+   - Using npm:
+     ```bash
+     npm install
+     ```
+   - Using yarn:
+     ```bash
+     yarn install
+     ```
+   - Using pnpm:
+     ```bash
+     pnpm install
+     ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Run the Development Server**:  
+   Start the development server:
+   - Using npm:
+     ```bash
+     npm run dev
+     ```
+   - Using yarn:
+     ```bash
+     yarn dev
+     ```
+   - Using pnpm:
+     ```bash
+     pnpm dev
+     ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Open the Application**:  
+   Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the app.
 
-## Deploy on Vercel
+The page will auto-update as you edit the files.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ **Tech Stack**  
+- **Frontend**: Next.js, Tailwind CSS  
+- **Backend**: Convex  
+- **Authentication**: Clerk.js  
+- **Icons**: Lucide React  
+- **File Management**: Convex storage APIs  
+- **AI Integration**: (Include AI tool if used)
+
+---
+
+## 🎯 **Features**  
+- **AI-Powered PDF Extraction**: Automatically extract meaningful insights from PDFs.  
+- **Organized Workspace**: Easily manage and store your extracted data.  
+- **Search Functionality**: Quickly search through your PDF insights.  
+- **Cross-Platform Support**: Access your workspace from anywhere.
+
+---
+
+## 📷 **Screenshots**  
+_**Add images of your platform here** to showcase the interface and features._  
+
+**Example Placeholder**:  
+![Platform Overview](/public/p1.png)  
+_Replace the above path with the actual location of your image file._
+![Platform Overview](/public/p2.png)  
+
+---
+
+## 🌍 **Deploy on Vercel**  
+The easiest way to deploy **PDFMind** is to use the [Vercel Platform](https://vercel.com). Here's how you can deploy it:
+
+1. Sign up or log in to [Vercel](https://vercel.com).
+2. Import the repository.
+3. Follow the prompts to deploy your app.
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+## 📜 **Learn More**  
+
+To learn more about how this project works, check out the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Convex Documentation](https://www.convex.dev/docs) - Learn about Convex and its APIs.
+- [Clerk.js Documentation](https://clerk.dev/docs) - Learn about Clerk authentication.
+
+---
+
+## 🤝 **Contributing**  
+We welcome contributions! To get involved, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push your changes:
+   ```bash
+   git push origin feature-branch
+   ```
+5. Open a pull request.
+
+---
+
+
